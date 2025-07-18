@@ -40,5 +40,8 @@ body {
 }
 
 .music-button {
-     background-image: url('images/Music.svg');
+    background-image: url('images/Music.svg');
+    background-size: contain;     /* or cover */
+    background-repeat: no-repeat;
+    background-position: center;
 }
