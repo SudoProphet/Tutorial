@@ -1,0 +1,44 @@
+
+
+body {
+    background-color: #F0F0F3;
+    padding: 500px;
+}
+
+.diagonal-button {
+    background-color: #F0F0F3;
+    width:80px;
+    height: 80px;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    cursor: pointer;
+    box-shadow: inset -4px -4px 5px rgba(255, 255, 255, 0.7);
+    box-shadow: inset 5px 0px 5px rgba(174, 174, 192, .49);
+}
+
+.round-button {
+    width: 50px;
+    height: 50px;
+    background-color: #F0F0F3;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px rgba(117, 115, 115, 0.25); /* 25% opacity */
+    border: none;
+    cursor: pointer;
+    transform: rotate(-45deg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.round-button:active {
+    box-shadow: inset 4.48px 1.79px 4.48px rgba(255, 255, 255, .25);
+    box-shadow: inset 1.79px 1.79px 4.48px rgba(0, 0, 0, .15);
+    box-shadow: inset -4.48px -4.48px 4.48px rgba(255, 255, 255, .25);
+    box-shadow: inset 2.24px 2.24px 4.48px rgba(0, 0, 0, .15);
+}
+
+.music-button {
+     background-image: url('images/Music.svg');
+}
