@@ -1,0 +1,28 @@
+
+
+
+body {
+    background-color: #F0F0F3;
+    font-family: 'overlock', serif;
+}
+
+h1 {
+    font-size: 62px;
+    text-align: center;
+    font-weight: 800;
+}
+
+/*FOR NAV BOX : box-shadow: -10px -10px 30px #00000080; */
+
+.nav-icon {
+    width: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.music-icon {
+    width: 300px;
+}

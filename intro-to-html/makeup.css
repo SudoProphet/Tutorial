@@ -1,0 +1,39 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(makeupimages/yellow-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main-heading {
+    text-align: center;
+}
+
+.tile {
+    margin: 100px 50px;
+    border: 1px solid grey;
+}
+
+.face-serum-tile {
+    display: grid;
+}
+
+.serum-image {
+    width: 500px;
+}
+
+.serum-content {
+    display: block;
+    justify-items: ;
+}
+
+.serum-des {
+    display: inline;
+}

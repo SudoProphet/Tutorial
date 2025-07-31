@@ -1,9 +1,14 @@
 
 
 body {
-    background-color: #E8E1E1;
-    padding: 500px;
+    background-color: #EBECF0;
+    padding: 100px;
+    font-family: 'poppins', sans-serif;
 }
+
+
+/* ------------- DIAGONAL BUTTON ------------- */
+
 
 .diagonal-button {
     background-color: #F0F0F3;
@@ -46,4 +51,91 @@ body {
 
 .profile-button {
     background-image: url(images/Profile.svg);
+}
+
+/* ------------- TILE ------------- */
+
+.tile {
+    width: 300px;
+    height: 300px;
+    background-color: #EBECF0;
+    border-radius: 40px;
+    box-shadow: -5px -5px 10px rgba(240, 240, 243, 1);
+    box-shadow: 5px 5px 10px rgba(166, 171, 189, 1);
+    border: 1px solid rgba(255, 255, 255, .53);
+    background: linear-gradient(135deg, rgba(240, 240, 243, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%),
+            linear-gradient(0deg, rgba(235, 236, 240, 1) 0%, rgba(235, 236, 240, 1) 100%);
+}
+
+.tile:hover {
+    box-shadow: -30px -30px 60px rgba(240, 240, 243, 1);
+    box-shadow: 30px 30px 60px rgba(166, 171, 189, 1);
+}
+
+.tile:active {
+    box-shadow: inset -30px -30px 60px rgba(240, 240, 243, 1);
+    box-shadow: inset 30px 30px 60px rgba(166, 171, 189, 1);
+}
+
+/* ------------- LOGIN FORM ------------- */
+
+
+.login-form {
+    padding: 50px 60px;
+    background-color: white;
+    display: grid;
+    margin: 30px;
+    width: 500px;
+    text-align: center;
+}
+
+.login-tab {
+    text-align: center;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 20px;
+    padding-top: 30px;
+    margin: 30px;
+}
+
+.form-input {
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid gray;
+    margin-bottom: 30px;
+}
+
+.login-button {
+    background-color: #cccccc;
+    border: none;
+    border-radius: 30px;
+    height: 35px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 50px;
+}
+
+.form-label {
+    color: darkslategray;
+    cursor: pointer;
+}
+
+.form-para {
+    text-align: center;
+    text-decoration: underline;
+    color: gray;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.create-acc-button {
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 20px 60px;
+    border: 1px solid gray;
+    cursor: pointer;
+    font-size: 16px;
 }

@@ -1,0 +1,68 @@
+        .first {
+
+            background-color: blue;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            
+        }
+
+
+        .second {
+
+            background-color: rgb(245, 151, 151);
+            padding-top: 10px;
+
+        }
+
+
+        .medetails {
+
+            display: inline-block;
+            width: 300px;
+
+        }
+
+
+        .imgme {
+
+            width: 100px;
+        }
+
+
+        
+        .fourth {
+
+            background-color: aquamarine;
+            width: 400px;
+            padding-left: 15px;
+            padding-right: 20px;
+            padding-bottom: 15px;
+            padding-top: 15px;
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 15px;
+
+        }
+
+
+        .details {
+
+            width: 300px;
+        }
+
+
+        .vac {
+
+            display: inline;
+            width: 300px;
+
+        }
+
+
+        .imgvac1, .imgvac2, .imgvac3, .imgvac4 {
+
+            width: 300px;
+            vertical-align: top;
+            margin-right: 15px;
+        }
+

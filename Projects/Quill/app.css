@@ -1,0 +1,75 @@
+
+body {
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #202122;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    color: #212529;
+}
+
+h1 {
+    font-size: 62px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 48px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+.icon {
+    width: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-primary:link .btn-primary:visited {
+
+}
+
+.btn-primary:hover .btn-primary:active {
+
+}
+
+.btn-secondary:link .btn-secondary:visited {
+
+}
+
+.btn-secondary:hover .btn-secondary:active {
+
+}
